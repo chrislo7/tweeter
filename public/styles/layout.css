@@ -8,16 +8,21 @@ html {
 }
 *, *:before, *:after {
   box-sizing: inherit;
+
 }
 
-/*
- * Global layout stuff
- */
+.container {
+  padding: 120px 2em 50px 2em;
+  margin: auto;
+  width: 450px;
+  background-color: white;
+}
 
 body {
   margin: 0;
   color: #244751;
   background-color: #eee;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 /*

@@ -1,0 +1,21 @@
+ #nav-bar {
+  padding: 0 2em 0 2em;
+  position: fixed;
+  color: #e8fdff;
+  background-color: #00a087;
+  font-family: 'Roboto Condensed', sans-serif;
+  height: 80px;
+  width: 100%;
+}
+
+#nav-bar .logo{
+  float: left;
+  height: 80px;
+  width: 80px;
+}
+
+#nav-bar .header{
+  float: left;
+  font-size: 2em;
+  line-height: 2.5em;
+}

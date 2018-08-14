@@ -1,15 +1,16 @@
-const textarea = document.getElementById('textarea');
+const textarea = document.getElementById("textarea");
 var count = 140;
 
 var countChar = function() {
-  var char = this.value.length;
-  var num = count - char;
-  if (num < 0) {
-    $(this).siblings('.counter').css('color', 'red')
+  const counter = $(this).siblings(".counter");
+  let char = this.value.length;
+  let val = count - char;
+  if (val < 0) {
+    counter.css("color", "red");
   } else {
-    $(this).siblings('.counter').css('color', 'black')
+    counter.css("color", "black");
   }
-  $(this).siblings('.counter').text(num);
-}
+  counter.text(val);
+};
 
-textarea.addEventListener('keyup', countChar)
+textarea.addEventListener("keyup", countChar);

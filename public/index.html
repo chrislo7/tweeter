@@ -21,8 +21,9 @@
     <nav id="nav-bar" >
       <img class="logo" src="/images/bird.png" >
       <span class="header">Tweeter</span>
-      <button class="composeButton"> &#9998; Compose </button>
+      <button class="compose-button"> &#9998; Compose </button>
     </nav>
+      <script type="text/javascript" src="/scripts/compose-button-slide.js"></script>
     <!-- Page-specific (main) content here -->
     <main class="container">
       <section class="new-tweet">
@@ -32,6 +33,7 @@
           <br/>
           <input type="submit" value="Tweet">
           <script src="/scripts/submit-new-tweets.js"></script>
+          <err>Error!</err>
           <span class="counter" id="counter">140</span>
           <script src="/scripts/composer-char-counter.js"></script>
         </form>

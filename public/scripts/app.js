@@ -26,6 +26,7 @@
     `<article class="old-tweets">
       <ul>${input.user.handle}</ul>
       <header>
+        <img src="${input.user.avatars.small}">
         <h2>${input.user.name}</h2>
       </header>
         <p>${input.content.text}</p>

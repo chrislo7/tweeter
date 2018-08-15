@@ -1,10 +1,10 @@
 $(document).ready(function() {
-  const textarea = document.getElementById("textarea");
+  const textarea = $('#textarea');
   var count = 140;
 
   var countChar = function() {
     const counter = $(this).siblings(".counter");
-    let char = this.value.length;
+    let char = $(this).val().length;
     let val = count - char;
     if (val < 0) {
       counter.css("color", "red");
@@ -14,5 +14,5 @@ $(document).ready(function() {
     counter.text(val);
   };
 
-  textarea.addEventListener("keyup", countChar);
+  textarea.on("input",  countChar);
 });

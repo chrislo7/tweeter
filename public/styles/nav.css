@@ -1,27 +1,27 @@
- #nav-bar {
+#nav-bar {
   z-index: 1;
   padding: 0 2em 0 2em;
   position: fixed;
   color: #e8fdff;
   background-color: #00a087;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   height: 80px;
   width: 100%;
 }
 
-#nav-bar .logo{
+#nav-bar .logo {
   float: left;
   height: 80px;
   width: 80px;
 }
 
-#nav-bar .header{
+#nav-bar .header {
   float: left;
   font-size: 2em;
   line-height: 2.5em;
 }
 
-#nav-bar .compose-button{
+#nav-bar .compose-button {
   float: right;
   font-size: 15px;
   padding: 1em 1em 1em 1em;
@@ -29,3 +29,4 @@
   height: 50px;
   margin: 15px 0 15px 0;
 }
+

@@ -6,6 +6,7 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 *:before,
 *:after {
@@ -26,13 +27,12 @@ article {
   border-radius: 10px;
   background-color: white;
 }
-
-article:hover{
+article:hover {
   opacity: 1;
   border: thin solid black;
 }
 
-article:hover div2{
+article:hover div2 {
   opacity: 1;
 }
 
@@ -79,7 +79,7 @@ article footer div {
 }
 
 article footer div2 {
-  opacity:0;
+  opacity: 0;
   padding-right: 10px;
   float: right;
 }
@@ -90,6 +90,3 @@ body {
   background-color: #eee;
   font-family: "Roboto Condensed", sans-serif;
 }
-/*
-* Additional CSS can be defined below or in other CSS files, as per instructions
-*/

@@ -1,35 +1,31 @@
-/*
-* http://www.paulirish.com/2012/box-sizing-border-box-ftw/
-* https://css-tricks.com/international-box-sizing-awareness-day/
-* Do not modify these two selectors, please
-*/
 html {
   box-sizing: border-box;
 }
 
 *,
-*:before,
-*:after {
+:before,
+:after {
   box-sizing: inherit;
 }
 
 .container {
-  padding: 120px 2em 50px 2em;
+  background-color: #fff;
   margin: auto;
+  padding: 120px 2em 50px;
   width: 450px;
-  background-color: white;
 }
 
 article {
-  opacity: 0.5;
-  margin-top: 1em;
+  background-color: #fff;
   border: thin solid #a9a9a9;
   border-radius: 10px;
-  background-color: white;
+  margin-top: 1em;
+  opacity: 0.5;
 }
+
 article:hover {
+  border: thin solid #000;
   opacity: 1;
-  border: thin solid black;
 }
 
 article:hover div2 {
@@ -37,24 +33,23 @@ article:hover div2 {
 }
 
 article header {
+  background-color: #f4f4f4;
   border-radius: 10px;
   padding-top: 1em;
-  margin-top: auto;
-  background-color: #f4f4f4;
 }
 
 article header img {
   float: left;
-  margin: -10px 5px 0 5px;
   height: 45px;
+  margin: -10px 5px 0;
   width: 45px;
 }
 
 article header h2 {
+  border-bottom: solid #f4f4f4;
+  margin-top: auto;
   padding-bottom: 10px;
   padding-left: 10px;
-  margin-top: auto;
-  border-bottom: solid #f4f4f4;
 }
 
 article p {
@@ -62,31 +57,31 @@ article p {
 }
 
 article ul {
-  padding: 5px 10px 0 0;
   float: right;
   font-size: 15px;
+  padding: 5px 10px 0 0;
 }
 
 article footer {
-  padding: 5px 0 5px 10px;
   border-top: thin solid #f4f4f4;
   height: 30px;
+  padding: 5px 0 5px 10px;
 }
 
 article footer div {
-  width: 30%;
   float: left;
+  width: 30%;
 }
 
 article footer div2 {
+  float: right;
   opacity: 0;
   padding-right: 10px;
-  float: right;
 }
 
 body {
-  margin: 0;
-  color: #244751;
   background-color: #eee;
+  color: #244751;
   font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
 }

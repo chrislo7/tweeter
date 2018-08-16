@@ -1,10 +1,10 @@
 .container .new-tweet {
-  padding: 0 1em 1em 1em;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   border: thin solid #a9a9a9;
   border-radius: 10px;
-  margin-bottom: 1em;
   display: none;
+  margin-bottom: 1em;
+  padding: 0 1em 1em;
 }
 
 .container err {
@@ -12,12 +12,12 @@
 }
 
 .container h2 {
-  border-bottom: thin solid black;
+  border-bottom: thin solid #000;
 }
 
 .container textarea {
-  width: 100%;
   padding-bottom: 1em;
+  width: 100%;
 }
 
 .container .counter {

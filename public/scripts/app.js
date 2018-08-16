@@ -16,7 +16,7 @@
     let dateBefore_ms = dateBefore.getTime();
     let dateNow_ms = dateNow.getTime();
     let diff = Math.round((dateNow_ms - dateBefore_ms) / oneDay);
-    return diff
+    return diff;
   }
 
 // function to output tweet elements (e.g. name, handle..etc.)

@@ -38,11 +38,11 @@
     return htmlCode;
   }
 
-//function to render tweets and append
+//function to render tweets and prepend (whenever user submits a tweet, it goes to the top rather than bottom)
   function renderTweets(tweets) {
     for(let eachUser of tweets){
       let $tweet = createTweetElement(eachUser);
-      $("#tweets-container").append($tweet);
+      $("#tweets-container").prepend($tweet);
     }
   }
 

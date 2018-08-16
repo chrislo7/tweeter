@@ -7,6 +7,10 @@
     display: none;
 }
 
+.container err {
+    display: none;
+}
+
 .container h2 {
     border-bottom: thin solid black;
 }
@@ -18,4 +22,5 @@
 
 .container .counter {
     float: right;
+    padding: 3px;
 }

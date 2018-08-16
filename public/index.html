@@ -23,7 +23,8 @@
       <span class="header">Tweeter</span>
       <button class="compose-button"> &#9998; Compose </button>
     </nav>
-      <script type="text/javascript" src="/scripts/compose-button-slide.js"></script>
+    <script type="text/javascript" src="/scripts/compose-button-slide.js"></script>
+    <!-- script to grab code from compose-button-slide.js file -->
     <!-- Page-specific (main) content here -->
     <main class="container">
       <section class="new-tweet">
@@ -33,26 +34,27 @@
           <br/>
           <input type="submit" value="Tweet">
           <script src="/scripts/submit-new-tweets.js"></script>
+          <!-- script to grab code from submit-new-tweets.js file -->
           <err>Error!</err>
           <span class="counter" id="counter">140</span>
           <script src="/scripts/composer-char-counter.js"></script>
+          <!-- script to grab code from composer-char-counter.js file -->
         </form>
       </section>
-
       <section id="tweets-container">
         <article class='old-tweets'>
-          <ul>@VinDiesel</ul>
-          <header>
-            <img class="logo" src="/images/bird.png" >
-            <h2>Vin Diesel</h2>
-          </header>
-          <p>I'm bald.</p>
+        <ul>@VinDiesel</ul>
+        <header>
+          <img class="logo" src="/images/bird.png" >
+          <h2>Vin Diesel</h2>
+        </header>
+        <p>I'm bald.</p>
         <footer>
           <div>10 days ago</div>
           <div2><i class="fas fa-flag"></i> <i class="fas fa-retweet"></i> <i class="fas fa-heart"></i></div2>
-        </footer>
-      </article>
-    </section>
-  </main>
+      </footer>
+    </article>
+  </section>
+</main>
 </body>
 </html>

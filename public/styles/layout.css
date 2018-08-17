@@ -43,6 +43,7 @@ article header img {
   height: 45px;
   margin: -10px 5px 0;
   width: 45px;
+  border-radius: 5px;
 }
 
 article header h2 {
